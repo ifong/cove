@@ -1,10 +1,4 @@
 class VideosController < ApplicationController
-=begin
-  def show 
-     respond_to do |format|
-	format.html
-     end
-=end
   def new
     #new video to fill stuff in the view
     @video = Video.new
